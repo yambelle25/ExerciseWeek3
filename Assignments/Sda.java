@@ -11,7 +11,7 @@ public class Sda {
             System.out.println("Element at index " + i + ": " + numbers[i]);
         }
 
-        // Intentionally access an out-of-bounds index to trigger an exception
+        // trigger an exception
         try {
             System.out.println("Accessing out-of-bounds index: " + numbers[5]);
         } catch (ArrayIndexOutOfBoundsException e) {
